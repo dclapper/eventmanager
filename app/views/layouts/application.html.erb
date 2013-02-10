@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Eventmanager</title>
+  <%= stylesheet_link_tag    "application", :media => "all" %>
+  <%= javascript_include_tag "application" %>
+  <%= csrf_meta_tags %>
+</head>
+<body>
+
+<!-- Begin Wrapper -->
+<div id="wrapper">
+	
+	<!-- Begin Header -->
+	<div id="header">
+		
+		This is the header
+		
+	</div>
+	<!-- End Header -->
+	
+	<!-- Begin Navigation -->
+	<div id="navigation">
+		
+		<%= link_to 'Home', venues_path %>
+		<%= link_to 'Exhibitors', exhibitors_path %>
+		<%= link_to 'Meetings', meetings_path %>
+		<%= link_to 'Venues', venues_path %>
+		<%= link_to 'Exhibitor Categories', exhibitor_categories_path %>
+		
+	</div>
+	<!-- End Navigation -->
+	
+	<!-- Begin Lef Column -->
+	<div id="leftcolumn">
+			
+			<%= yield %>
+		
+	</div>
+	<!-- End Left Column -->
+	
+	<!-- Begin Footer -->
+	<div id="footer">
+		
+		This is the footer
+		
+	</div>
+	<!-- End Footer -->
+	
+</div>
+<!-- End Wrapper -->
+
+</body>
+</html>

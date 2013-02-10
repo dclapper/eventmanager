@@ -1,0 +1,141 @@
+/*
+ * This is a manifest file that'll be compiled into application.css, which will include all the files
+ * listed below.
+ *
+ * Any CSS and SCSS file within this directory, lib/assets/stylesheets, vendor/assets/stylesheets,
+ * or vendor/assets/stylesheets of plugins, if any, can be referenced here using a relative path.
+ *
+ * You're free to add application-wide styles to this file and they'll appear at the top of the
+ * compiled file, but it's generally better to create a new file per style scope.
+ *
+ *= require_self
+ *= require_tree .
+ */
+
+* { padding: 0; margin: 0; }
+
+body {
+ font-family: Arial, Helvetica, sans-serif;
+ font-size: 13px;
+}
+#wrapper { 
+ margin: 0 auto;
+ width: 922px;
+}
+#header {
+ color: #333;
+ width: 900px;
+ float: left;
+ padding: 10px;
+ border: 1px solid #ccc;
+ height: 100px;
+ margin: 10px 0px 5px 0px;
+ background: #BD9C8C;
+ background: #E7DBD5;
+}
+#navigation {
+ float: left;
+ width: 900px;
+ color: #333;
+ padding: 10px;
+ border: 1px solid #ccc;
+ margin: 0px 0px 5px 0px;
+ background: #BD9C8C;
+}
+#leftcolumn { 
+ position: relative;
+ color: #333;
+ border: 1px solid #ccc;
+ margin: 0px 5px 5px 0px;
+ padding: 10px;
+ min-height: 400px;
+ width: 900px;
+ float: left;
+ background: #F2F2E6;
+}
+#rightcolumn { 
+ float: right;
+ position: absolute;
+ top: 20px;
+ right: 20px;
+ color: #333;
+ margin: 0px 0px 5px 0px;
+ padding: 10px;
+ min-height: 150px;
+ width: 200px;
+ display: inline;
+}
+#floatbox1 { 
+ float: right;
+ position: relative;
+ color: #333;
+ border: 1px solid #ccc;
+ margin: 0px 0px 5px 0px;
+ padding: 10px;
+ min-height: 150px;
+ width: 200px;
+ display: block;
+ background: #E7DBD5;
+}
+#floatbox2 { 
+ float: right;
+ position: relative;
+ color: #333;
+ border: 1px solid #ccc;
+ margin: 0px 0px 5px 0px;
+ padding: 10px;
+ min-height: 150px;
+ width: 200px;
+ display: block;
+ background: #E7DBD5;
+}
+#footer { 
+ width: 900px;
+ clear: both;
+ color: #333;
+ border: 1px solid #ccc;
+ background: #BD9C8C;
+ margin: 0px 0px 10px 0px;
+ padding: 10px;
+}
+
+/* CSS CODE FROM http://http://pythoughts.com/table-style-css/ */
+
+table {
+	
+	background-color: #ccc;
+	padding: 5px;
+	border-radius: 5px;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	border: 1px solid #ebebeb;
+	width: 100%;
+	margin-left: auto;
+	margin-right: auto;
+}
+table td, table th {
+	padding: 1px 5px;
+}
+table thead {
+	font-weight: bold;
+	font: normal 15px Helvetica Neue,Helvetica,sans-serif;
+	text-shadow: 0 1px 0 white;
+	color: #999;
+}
+table th {
+	text-align: left;
+	border-bottom: 1px solid #fff;
+}
+table td {
+	font-size: 14px;
+}
+table td:hover {
+	background-color: #fff;
+}
+
+/* BODY CSS FORMATNING */
+h1 {
+	font-weight: bold;
+	font-size: 18px;
+	padding-bottom: 10px;
+}
