@@ -9,5 +9,6 @@ class Meeting < ActiveRecord::Base
   has_and_belongs_to_many :sponsors
   belongs_to :venue
   has_many :exhibitors, :through => :sponsors
+  has_many :contests
   
 end

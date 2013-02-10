@@ -1,0 +1,13 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/Fixtures.html
+
+one:
+  prize: MyText
+  present_to_win: false
+  start_date: 2013-02-10 12:56:19
+  end_date: 2013-02-10 12:56:19
+
+two:
+  prize: MyText
+  present_to_win: false
+  start_date: 2013-02-10 12:56:19
+  end_date: 2013-02-10 12:56:19
